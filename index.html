@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tirage Sujet de Veille</title>
+
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="title">
+            <h1>Tirage Sujet de Veille</h1>
+        </div>
+    
+        <div style="display: flex; gap: 25px;">
+
+
+            <!-- form of add the new student -->
+            <div class="add-form">
+                <input class="input-name" id="name" type="text" placeholder="Add Full Name...">
+                <!-- <input class="input-name" type="date" id="date" placeholder="Add Start Date..." min="currentDate()"> -->
+                <button class="button" id="add">Add</button>
+            </div>
+
+        
+            <!-- list of students -->
+            <div class="student-list">
+                <h3>Students List:</h3>
+                <table class="names-table" id="list-name">
+                    <th>
+                        <tr>Name</tr>
+                    </th>
+                </table>
+                <button class="button" id="generate">Generate</button>
+            </div>
+        </div>
+        
+
+        <!-- list of students After a random -->
+        <div class="div">
+            <div class="random-list">
+                <h3>Students List After A Random:</h3>
+            <table id="list-random">
+                <tr>
+                    <th>Name</th>
+                    <th>Date</th>
+                </tr>
+            </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
