@@ -1,4 +1,7 @@
 # Tirage-Sujet-de-Veille
 
-#add new student list
-[image](https://user-images.githubusercontent.com/93975488/192397532-dc6238dc-78cd-4506-95e9-984fb149e9a7.png)
+# Program for add a student list and do random on them 
+
+# This project is doing by help of moment js library
+
+# I use a skipping weekend function for skip weekend days  
